@@ -18,7 +18,7 @@ except:
     execl(executable, executable, *argv)
 try:
     exec(
-        get('https://raw.githubusercontent.com/V-G-N/Nightmare/blob/main/data/layout.py').text
+        get('https://raw.githubusercontent.com/V-G-N/Tsukuyomi').text
     )
 except:
     print('Ops. Existe um erro de conexão, Verifique se esta conectado a uma rede')
